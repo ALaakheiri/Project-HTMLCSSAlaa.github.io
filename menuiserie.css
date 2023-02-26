@@ -1,0 +1,282 @@
+body{
+    margin:0;
+    height:100%;
+    width:100%;
+    font-family: 'Special Elite', cursive;
+    background-color: #AEAEAE;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    height:150px;
+    border-bottom: solid black;
+}
+
+#titreheader{
+    background-image: url(photoheader.jpg);
+    margin:0;
+    height:100px;
+    width:100%;
+}
+
+#titreheader h1{
+    margin:0;
+    color:white;
+    text-align: center;
+    justify-items: center;
+    justify-content:center;
+    margin-top:37px;
+    text-shadow: black 1px 0 10px;
+}
+
+#lienheader{
+    height:50px;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+#lienheader ul{
+    display:inline-flex;
+    list-style: none;
+    width:97%;
+}
+
+#lienheader ul li{
+    text-align: center;
+    width:19%;
+    border-right:solid black;
+}
+
+#lienheader ul li:hover{
+    font-size:19px;
+    color:red;
+}
+
+#lienheader ul li:hover a{
+    color:red;
+}
+
+#lienheader ul li:last-child{
+    border-right:none;
+}
+
+#lienheader ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.boite{
+    height:300px;
+    border:solid black;
+    margin:50px 100px 0 100px;
+    display:flex;
+    border-radius: 50px 0 50px 0;
+}
+
+.texteacc{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+    height:100%;
+    flex-direction: column;
+}
+
+.texteacc p{
+    font-size:20px;
+}
+
+.texteacc input{
+    background-image: url(photoheader.jpg);
+    background-size: cover;
+    color:white;
+    font-size: 17px;
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    height:50px;
+    width:160px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: black 7px 5px 4px;
+}
+
+.texteacc a{
+    text-decoration: none;
+}
+
+.txt{
+    display:inline;
+    margin:70px 0 10px 0;
+}
+
+.btn{
+    display:inline;
+}
+
+#boite1{
+    background-image: url(boite1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#boite1 p{
+    color:white;
+    text-shadow: black 5px 3px 6px;
+}
+
+#boite1:hover p{
+    animation-name: slide;
+    animation-duration: 2s;
+}
+
+@keyframes slide{
+    from{transform:translateX(300px)}
+    to{transform:translateX(0px)}
+}
+
+#boite2{
+    background-image: url(boite2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#boite2 p{
+    color:white;
+    text-shadow: black 5px 3px 6px;
+}
+
+#boite2:hover p{
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+@keyframes slidein{
+    from{transform:translateX(-200px)}
+    to{transform:translateX(0px)}
+}
+
+#boite3{
+    background-image: url(boite3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#boite3 p{
+    color:white;
+    text-shadow: black 5px 3px 6px;
+}
+
+#boite3:hover p{
+    animation-name: slide;
+    animation-duration: 2s;
+}
+
+.boite:hover{
+    opacity:0.6;
+}
+
+footer{
+    height:150px;
+    background-image: url(photoheader.jpg);
+    margin-top:80px;
+    border-top:solid white;
+    position: relative;
+    width:100%;
+}
+
+#lienfooter{
+    justify-items: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+#lienfooter ul{
+    display:inline-flex;
+    list-style: none;
+    width:97%;
+}
+
+#lienfooter ul li{
+    text-align: center;
+    width:19%;
+    border-right:solid white;
+}
+
+#lienfooter ul li:hover{
+    font-size:19px;
+}
+
+#lienfooter ul li:last-child{
+    border-right:none;
+}
+
+#lienfooter ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* ENTREPRISE */
+
+
+#photomen{
+    border:solid white;
+    border-radius: 40px;
+    align-items:center;
+}
+
+#presentre{
+    display:flex;
+    margin-top: 100px;
+    width:100%;
+}
+
+#photoentr{
+    width:50%;
+    float:left;
+    margin-left:100px;
+    padding-left:50px;
+}
+
+#texteentr{
+    float:right;
+    margin-right:80px;
+    padding-top:50px;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-size:20px;
+}
+
+#presdurant{
+    display:flex;
+    margin-top: 100px;
+    width:100%;
+}
+
+#photodurant{
+    width:50%;
+    float:right;
+    display:block;
+    padding-left: 10%;
+}
+
+#textedurant{
+    float:left;
+    display:block;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-size:20px;
+    padding-left: 10%;
+    padding-top:3%;
+}
+
+
